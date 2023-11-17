@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: blue;
+    font-size: 80px;
+    text-align: center;
+    background-image: url("1.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    padding-top:50px;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 120px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+    padding-top: 150px;
+
+    
+    
+}
+main{
+    height: 100%;
+    color: rgb(87, 189, 84);
+    font-size: 50px;
+    text-align: center;
+    background: repeating-linear-gradient(-45deg, #de9dd4, #de9dd4 5px, white 5px, white 10px )
+}
+footer{
+    height: 100px;
+    display: flex;
+    color: rgb(39, 206, 197);
+    font-size: 50px;
+    text-align: center;
+    height: 100%;
+    background: blue;
+}
+h1{
+    padding-top: 50px;
+    margin: 0px;
+
+}
+div{
+    height: 100%;
+    width: 1000px;
+
+}
+.hmm{
+    background: linear-gradient(to left, green, blue);
+    padding: 10px;
+}
+.nuok{
+    background: linear-gradient(to left, green, blue);
+    padding: 10px;
+    text-align: center;
+}
+main{
+    display: flex;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.f_left img{
+    padding-top: 20px;
+}
+
+.f_right{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.f_right img{
+    width: 100px;
+    padding-left: 20px;
+}
+
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+    
